@@ -31,7 +31,7 @@ function AirbnbCard() {
                         {property.brand}
                     </Badge>
                     {/* <Box
-                        color='gray.500'
+                        color='pink.500'
                         fontWeight='semibold'
                         letterSpacing='wide'
                         fontSize='lg'

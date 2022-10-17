@@ -59,14 +59,13 @@ function App() {
                 <Text fontSize='5xl'>{property.brand}</Text>
                 <Box display='flex' alignItems='baseline'>
                 <Box
-                    color='gray.500'
+                    color='pink.500'
                     fontWeight='semibold'
                     letterSpacing='wide'
                     fontSize='lg'
                     textTransform='uppercase'
                     ml='2'
                 >
-                    Popular
                 </Box>
                 </Box>
 

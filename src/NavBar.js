@@ -13,7 +13,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import LBLogo  from './LittleBeautica.png';
+import LBLogo from './youtube_profile_image.png';
 
 const paddingSpace = "20px";
 
@@ -50,8 +50,8 @@ const Header = () => {
       alignItems="center"
       justify="space-between"
       w="100%"
-      bg="pink.600"
-      h="11vh"
+      bg="pink.300"
+      h="7vh"
     >
       <Box
         w="200px"
@@ -60,7 +60,7 @@ const Header = () => {
         cursor="pointer"
         onClick={() => navigate("/")}
       >
-        <Image src={LBLogo} boxSize="24" />
+        <Image src={LBLogo} boxSize="10" rounded="20" />
       </Box>
 
       <Box
@@ -68,7 +68,7 @@ const Header = () => {
         flexBasis={{ base: "100%", md: "auto" }}
         paddingRight={paddingSpace}
       >
-        <Flex fontSize={"xl"} px="10">
+        <Flex fontSize={"l"} px="10">
           {/* Navbar buttons */}
           <Menu>
             {NavButton("Discover", "/discover")}

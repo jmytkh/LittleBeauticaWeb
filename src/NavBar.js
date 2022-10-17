@@ -5,7 +5,7 @@ import {
   Text,
   useColorModeValue,
   Menu,
-  MenuButton,
+  MenuButton, HStack,
   Button,
   Avatar,
   MenuList,
@@ -60,7 +60,10 @@ const Header = () => {
         cursor="pointer"
         onClick={() => navigate("/")}
       >
+        <HStack>
         <Image src={LBLogo} boxSize="10" rounded="20" />
+        Little Beautica
+        </HStack>
       </Box>
 
       <Box

@@ -43,13 +43,13 @@ function App() {
       <GridItem pl="2" bg="pink.100" area={"right"}>
           <VStack spacing={8} align='stretch'>
           <Spacer/>
-          <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
               {property.option1}
           </Button>
-          <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
           {property.option2}
           </Button>
-          <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
           {property.option3}
           </Button>
           </VStack>

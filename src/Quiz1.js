@@ -9,37 +9,48 @@ import {
     GridItem,
     theme,
     Button,
+    Spacer,
   } from '@chakra-ui/react';
 
 import { useNavigate } from "react-router-dom";
 function App() {
     
     const navigate = useNavigate();
+    const property = {
+        questionNumber: 1,
+        question: "Is your skin oily?",
+        option1: 'Yes',
+        option2: 'No',
+        option3: "I don't know",
+      }
     return (      
     <Box textAlign="center" fontSize="xl">
     <Grid
       templateAreas={`"left right"
                         `}
-      gridTemplateColumns={"1fr 2fr"}
+      gridTemplateColumns={"1fr 1fr"}
       h="100vh"
       fontWeight="bold"
     >
-        <GridItem pl="2" bg="pink.50" area={"left"}>
+        <GridItem pl="2" bg="pink.200" area={"left"}>
             <VStack spacing={8} align='center' verticalAlign={'center'}>
-            <Text fontSize='6xl'>Question 1</Text>
+            <Text fontSize='5xl'>Question {property.questionNumber}</Text>
+            <Spacer/>
+            <Spacer/>
+            <Text fontSize='4xl'>{property.question}</Text>
             </VStack>
         </GridItem>
         <GridItem pl="2" bg="pink.100" area={"right"}>
             <VStack spacing={8} align='stretch'>
-            <Text fontSize='4xl'>Is your skin oily?</Text>
-            <Button colorScheme='teal' size='2xl' h='40' onClick={() => {navigate(`/quiz/2`); }}>
-                Yes
+            <Spacer/>
+            <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+                {property.option1}
             </Button>
-            <Button colorScheme='teal' size='2xl' h='40' onClick={() => {navigate(`/quiz/2`); }}>
-                No
+            <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+            {property.option2}
             </Button>
-            <Button colorScheme='teal' size='2xl' h='40' onClick={() => {navigate(`/quiz/2`); }}>
-                I don't know
+            <Button colorScheme='blue' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+            {property.option3}
             </Button>
             </VStack>
         </GridItem>

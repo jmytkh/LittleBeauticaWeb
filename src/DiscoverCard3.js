@@ -4,16 +4,16 @@ import {
   } from '@chakra-ui/react';
 import { StarIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
-import image  from './ImgProduct1.webp';
+import image  from './ImgProduct2.webp';
 
 function AirbnbCard() {
     const navigate = useNavigate();
     const property = {
       imageUrl: image,
       imageAlt: 'Image here',
-      brand: 'LANEIGE',
-      title: 'Waterbank Blue Discovery Duo Kit',
-      formattedPrice: '$30.00',
+      brand: 'GLOW RECIPE',
+      title: 'Fruit Babies Bestsellers Kit',
+      formattedPrice: '$45.00',
       reviewCount: 34,
       rating: 4,
     }

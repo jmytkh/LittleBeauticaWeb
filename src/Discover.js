@@ -38,11 +38,11 @@ function App() {
                         Discover your beauty today
                     </Text>
                     <HStack>
-                        <Input placeholder='Search' w='800' />
+                        <Input placeholder='Search' w='1000' borderColor='pink.600' />
                         <Menu>
                             {({ isOpen }) => (
                                 <>
-                                    <MenuButton isActive={isOpen} as={Button} w='100' rightIcon={<ChevronDownIcon />}>
+                                    <MenuButton isActive={isOpen} as={Button} w='1000' rightIcon={<ChevronDownIcon />} bgColor='pink.200'>
                                         {'Filter by Skin Type'}
                                     </MenuButton>
                                     <MenuList>

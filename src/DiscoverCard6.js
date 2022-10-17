@@ -4,17 +4,17 @@ import {
   } from '@chakra-ui/react';
 import { StarIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
-import image  from './ImgProduct2.webp';
+import image  from './ImgProduct6.webp';
 
 function AirbnbCard() {
     const navigate = useNavigate();
     const property = {
       imageUrl: image,
       imageAlt: 'Image here',
-      brand: 'GLOW RECIPE',
-      title: 'Fruit Babies Bestsellers Kit',
-      formattedPrice: '$45.00',
-      reviewCount: 34,
+      brand: 'CLINIQUE',
+      title: 'Moisture Surge-Skincare Set',
+      formattedPrice: '$39.00',
+      reviewCount: 56,
       rating: 4,
     }
   

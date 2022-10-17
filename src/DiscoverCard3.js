@@ -4,18 +4,18 @@ import {
   } from '@chakra-ui/react';
 import { StarIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
-import image  from './ImgProduct2.webp';
+import image  from './ImgProduct3.webp';
 
 function AirbnbCard() {
     const navigate = useNavigate();
     const property = {
       imageUrl: image,
       imageAlt: 'Image here',
-      brand: 'GLOW RECIPE',
-      title: 'Fruit Babies Bestsellers Kit',
-      formattedPrice: '$45.00',
-      reviewCount: 34,
-      rating: 4,
+      brand: 'INNISFREE',
+      title: 'Green Tea Hydration Duo',
+      formattedPrice: '$16.00',
+      reviewCount: 55,
+      rating: 5,
     }
   
     return (
@@ -38,7 +38,7 @@ function AirbnbCard() {
                     textTransform='uppercase'
                     ml='2'
                 >
-                    
+                    Hot Selling
                 </Box>
                 </Box>
 

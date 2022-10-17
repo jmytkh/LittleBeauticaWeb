@@ -4,17 +4,17 @@ import {
   } from '@chakra-ui/react';
 import { StarIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
-import image  from './ImgProduct1.webp';
+import image  from './ImgProduct4.webp';
 
 function AirbnbCard() {
     const navigate = useNavigate();
     const property = {
       imageUrl: image,
       imageAlt: 'Image here',
-      brand: 'LANEIGE',
-      title: 'Waterbank Blue Discovery Duo Kit',
-      formattedPrice: '$30.00',
-      reviewCount: 34,
+      brand: 'PIXI',
+      title: 'Purifying Trio Skincare Kit Mini',
+      formattedPrice: '$27.00',
+      reviewCount: 94,
       rating: 4,
     }
   

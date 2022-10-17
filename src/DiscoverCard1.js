@@ -13,7 +13,7 @@ function AirbnbCard() {
       imageAlt: 'Image here',
       brand: 'LANEIGE',
       title: 'Waterbank Blue Discovery Duo Kit',
-      formattedPrice: '$30.00',
+      formattedPrice: '$25.00',
       reviewCount: 34,
       rating: 4,
     }
@@ -38,7 +38,7 @@ function AirbnbCard() {
                     textTransform='uppercase'
                     ml='2'
                 >
-                    
+                    Popular
                 </Box>
                 </Box>
 

@@ -4,18 +4,18 @@ import {
   } from '@chakra-ui/react';
 import { StarIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
-import image  from './ImgProduct1.webp';
+import image  from './ImgProduct8.webp';
 
 function AirbnbCard() {
     const navigate = useNavigate();
     const property = {
       imageUrl: image,
       imageAlt: 'Image here',
-      brand: 'LANEIGE',
-      title: 'Waterbank Blue Discovery Duo Kit',
-      formattedPrice: '$30.00',
+      brand: 'SHISEIDO',
+      title: 'Ultimune Essential Defense Trio',
+      formattedPrice: '$45.00',
       reviewCount: 34,
-      rating: 4,
+      rating: 5,
     }
   
     return (
@@ -38,7 +38,7 @@ function AirbnbCard() {
                     textTransform='uppercase'
                     ml='2'
                 >
-                    
+                    Premium
                 </Box>
                 </Box>
 

@@ -13,15 +13,15 @@ function AirbnbCard() {
       imageAlt: 'Image here',
       brand: 'GLOW RECIPE',
       title: 'Fruit Babies Bestsellers Kit',
-      formattedPrice: '$45.00',
-      reviewCount: 34,
+      formattedPrice: '$41.00',
+      reviewCount: 84,
       rating: 4,
     }
   
     return (
 
             <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' 
-            onClick={() => {navigate(`/101`); }}>
+            onClick={() => {navigate(`/102`); }}>
             
             <Image src={property.imageUrl} alt={property.imageAlt} />
 
@@ -38,7 +38,7 @@ function AirbnbCard() {
                     textTransform='uppercase'
                     ml='2'
                 >
-                    
+                    Hot Selling
                 </Box>
                 </Box>
 

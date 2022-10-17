@@ -27,15 +27,14 @@ function App() {
                                     "bottom"
                                 `}
             gridTemplateRows={"1fr 6fr"}
-            h="200vh"
+            h="100vh"
             fontWeight="bold"
             >
-                <GridItem pl="2" bg="pink.200" area={"top"}>
+                <GridItem pl="2" bg="pink.200" area={"top"} verticalAlign={'center'}>
                     <VStack spacing={1}>
                         <Text fontSize='5xl' h='100'>
-                        Discover your beauty today
+                        Based on the Quiz Results, we would recommend
                         </Text>
-                        <Input placeholder='Search' size='md' h='20'/>
                     </VStack>
                 </GridItem>
                 <GridItem pl="2" bg="white" area={"bottom"}>
@@ -45,31 +44,16 @@ function App() {
                     <Box w='auto' h='auto' bg='pink.100'>
                     <DiscoverCard1/>
                     </Box>
+                    <Box w='auto' h='auto'>
+                    or
+                    </Box>
                     <Box w='auto' h='auto' bg='pink.100'>
                     <DiscoverCard2/>
                     </Box>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard3/>
-                    </Box>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard4/>
-                    </Box>
                     </HStack>
-                    
-                    <HStack spacing='24px'>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard5/>
+                    <Box w='auto' h='auto' fontSize={'3xl'}>
+                    Go ahead! Click on one to find out more
                     </Box>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard6/>
-                    </Box>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard7/>
-                    </Box>
-                    <Box w='auto' h='auto' bg='pink.100'>
-                    <DiscoverCard8/>
-                    </Box>
-                    </HStack>
                     </VStack>
                 </GridItem>
             </Grid>

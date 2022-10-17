@@ -72,7 +72,8 @@ const Header = () => {
           {/* Navbar buttons */}
           <Menu>
             {NavButton("Discover", "/discover")}
-            {NavButton("Take the Quiz", "/quiz1")}
+            {NavButton("Events and Roadshows", "/events")}
+            {NavButton("Take the Skincare Quiz", "/quiz1")}
             {NavButton("Log In/Sign Up", "/")}
           </Menu>
         </Flex>

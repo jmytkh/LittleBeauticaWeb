@@ -100,6 +100,7 @@ function App() {
                 </Box>
                 </Box>
                 
+                <Button colorScheme='pink'>Add to cart</Button>
                 <Box
                 mt='1'
                 fontSize={'xl'}

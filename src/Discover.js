@@ -17,8 +17,10 @@ import {
     Grid,
     GridItem,
     theme,
-    HStack
+    HStack,
+    Menu, MenuButton, MenuList, MenuItem, Button,
   } from '@chakra-ui/react';
+  import { ChevronDownIcon } from "@chakra-ui/icons";
 function App() {
     return ( 
         <Box textAlign="center" fontSize="xl">
@@ -35,7 +37,28 @@ function App() {
                         <Text fontSize='5xl' h='100'>
                         Discover your beauty today
                         </Text>
-                        <Input placeholder='Search' size='md' h='20'/>
+                        <HStack>
+                        <Input placeholder='Search' w='800'/>
+                        <Menu>
+                        {({ isOpen }) => (
+                            <>
+                            <MenuButton isActive={isOpen} as={Button} w='100' rightIcon={<ChevronDownIcon />}>
+                                {isOpen ? 'Close' : 'Filter by Skin Type'}
+                            </MenuButton>
+                            <MenuList>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Anti-Aging</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Dark Circles</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Dark Spots</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Dry Skin</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Fine Liner & Wrinkles</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Fragrance Free</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Oily Skin</MenuItem>
+                                <MenuItem onClick={() => alert('Fliter Applied')}>Sagging Skin</MenuItem>
+                            </MenuList>
+                            </>
+                        )}
+                        </Menu>
+                        </HStack>
                     </VStack>
                 </GridItem>
                 <GridItem pl="2" bg="white" area={"bottom"}>

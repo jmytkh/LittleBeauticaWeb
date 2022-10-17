@@ -99,7 +99,7 @@ function App() {
                     {property.reviewCount} reviews
                 </Box>
                 </Box>
-                
+                <Button colorScheme='pink'>Add to cart</Button>
                 <Box
                 mt='1'
                 fontSize={'xl'}
@@ -153,8 +153,10 @@ Next, apply the moisturiser evenly to the face.
                 >
                 INGREDIENTS<p/>
 Product Claims: Anti-oxidants, Hyaluronic Acid, Oil-free, Paraben-free, Sulphate-free, Vitamins
+<p/>
 Water Bank Blue Hyaluronic Cream Moisturizer: Water / Aqua / Eau, Butylene Glycol, Glycerin, Squalanesucrose Polystearate, Pentaerythrityl Tetraethylhexanoate, Methyl Trimethicone, Dibutyl Adipate, 1, 2-Hexanediol, Glyceryl Stearate, Polyglyceryl-3 Methylglucose Distearate, Bis-Hydroxyethoxypropyl Dimethicone,
  Stearyl Dimethicone, Caprylic/Capric/Myristic/Stearic Triglyceride, Stearic Acid, Palmitic Acid, Hydrogenated Polyisobutene, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetyl Alcohol, Propanediol, Octadecene, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Fragrance / Parfum, Xanthan Gum, Glyceryl Caprylate, Dextrin, Tromethamine, Ethylhexylglycerin, Disodium Edta, Sorbitan Isostearate, Allantoin, Hydrolyzed Hyaluronic Acid, Beta-Glucan, Ceramide Np, Myristic Acid, Arachidic Acid, Lactobacillus Ferment Lysate, Tocopherol, Undaria Pinnatifida Extract
+ <p/>
 Water Bank Blue Hyaluronic Serum: Water / Aqua / Eau, Butylene Glycol, Dipropylene Glycol, Glycerin, Squalane, 1, 2-Hexanediol, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Propanediol, Carbomer, Cetearyl Alcohol, Tromethamine, Polyglyceryl-3 Methylglucose Distearate, Dextrin, Hydrogenated Lecithin, Ethylhexylglycerin, Fragrance / Parfum, Glyceryl Stearate Citrate, Disodium Edta, Betaine, Hydrolyzed Hyaluronic Acid, Beta-Glucan, Xylitylglucoside, Anhydroxylitol, Xylitol, Lactobacillus Ferment Lysate, Glucose, Tocopherol, Magnesium Chloride
 , Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Undaria Pinnatifida Extract
                 </Box>

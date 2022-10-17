@@ -30,6 +30,7 @@ import Quiz3 from "./Quiz3";
 import Quiz4 from "./Quiz4";
 import Quiz5 from "./Quiz5";
 import QuizResults from "./QuizResults";
+import Events from "./Events";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="quizresult" element={<QuizResults/>} />
           <Route path='101' element={<DiscoverProduct1/>} />
           <Route path='102' element={<DiscoverProduct2/>} />
+          <Route path='events' element={<Events/>} />
         </Routes>
       </Router>
     </ChakraProvider>

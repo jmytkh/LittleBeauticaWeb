@@ -17,12 +17,12 @@ function App() {
   
   const navigate = useNavigate();
   const property = {
-      questionNumber: 2,
-      question: "WHAT IS YOUR AGE GROUP?",
-      hint: "We know that skin changes over time. Your age group will help us give the right advice to suit you.",
-      option1: 'Under 24',
-      option2: '25 to 40',
-      option3: "Above 40",
+      questionNumber: 6,
+      question: "ANY SPECIAL REQUIREMENTS YOU NEED FOR YOUR SKINCARE?",
+      hint: "If you have any allergies or want only alcohol-free, perfume-free or natural products let us know. Selecting one of these may limit your number of suitable products but NIVEA can still offer helpful advice and selected products.",
+      option1: "Don't mind",
+      option2: 'Alchohol and fragrance free',
+      option3: "Prefer natural products",
     }
   return (      
   <Box textAlign="center" fontSize="xl">
@@ -47,13 +47,13 @@ function App() {
       <GridItem pl="2" bg="pink.100" area={"right"}>
           <VStack spacing={8} align='stretch'>
           <Spacer/>
-          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
               {property.option1}
           </Button>
-          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
           {property.option2}
           </Button>
-          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quiz${property.questionNumber+1}`); }}>
+          <Button colorScheme='pink' size='xl' h='40' onClick={() => {navigate(`/quizresult`); }}>
           {property.option3}
           </Button>
           </VStack>

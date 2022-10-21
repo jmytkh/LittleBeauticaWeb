@@ -29,6 +29,7 @@ import Quiz2 from "./Quiz2";
 import Quiz3 from "./Quiz3";
 import Quiz4 from "./Quiz4";
 import Quiz5 from "./Quiz5";
+import Quiz6 from "./Quiz6";
 import QuizResults from "./QuizResults";
 import Events from "./Events";
 
@@ -46,6 +47,7 @@ function App() {
           <Route path="quiz3" element={<Quiz3/>} />
           <Route path="quiz4" element={<Quiz4/>} />
           <Route path="quiz5" element={<Quiz5/>} />
+          <Route path="quiz6" element={<Quiz6/>} />
           <Route path="quizresult" element={<QuizResults/>} />
           <Route path='101' element={<DiscoverProduct1/>} />
           <Route path='102' element={<DiscoverProduct2/>} />

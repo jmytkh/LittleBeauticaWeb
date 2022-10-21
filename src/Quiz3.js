@@ -18,10 +18,11 @@ function App() {
   const navigate = useNavigate();
   const property = {
       questionNumber: 3,
-      question: "Is your skin oily?",
-      option1: 'Yes',
-      option2: 'No',
-      option3: "I don't know",
+      question: "WHAT DOES YOUR CURRENT SKINCARE ROUTINE LOOK LIKE?",
+      hint: "Choose your level of skincare routine so we can tailor products to you",
+      option1: 'Basic: Bare essentials routine',
+      option2: 'Advanced: Day and Night routines',
+      option3: "Expert: Specialised and detailed routine of using various products",
     }
   return (      
   <Box textAlign="center" fontSize="xl">
@@ -38,6 +39,9 @@ function App() {
           <Spacer/>
           <Spacer/>
           <Text fontSize='4xl'>{property.question}</Text>
+            <Spacer/>
+            <Spacer/>
+            <Text fontSize='xl'>{property.hint}</Text>
           </VStack>
       </GridItem>
       <GridItem pl="2" bg="pink.100" area={"right"}>

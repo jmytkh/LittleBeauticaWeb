@@ -19,7 +19,7 @@ function App() {
   const property = {
       questionNumber: 6,
       question: "ANY SPECIAL REQUIREMENTS YOU NEED FOR YOUR SKINCARE?",
-      hint: "If you have any allergies or want only alcohol-free, perfume-free or natural products let us know. Selecting one of these may limit your number of suitable products but NIVEA can still offer helpful advice and selected products.",
+      hint: "If you have any allergies or want only alcohol-free, perfume-free or natural products let us know. Selecting one of these may limit your number of suitable products but we can still offer helpful advice and selected products.",
       option1: "No restrictions",
       option2: 'Alchohol and fragrance free',
       option3: "Prefer natural products",

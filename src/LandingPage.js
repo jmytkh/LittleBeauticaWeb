@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 function App() {
   const navigate = useNavigate();
   return (
-    <Box textAlign="center" fontSize="xl" bg="pink.50" height="100vh" pt="10">
+    <Box textAlign="center" fontSize="xl" bg="pink.50" height="120vh" pt="10">
       {/* <Grid
         templateAreas={`"top" "bottom"`}
         gridTemplateRows={"1fr 3fr"}

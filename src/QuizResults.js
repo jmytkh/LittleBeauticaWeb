@@ -26,13 +26,13 @@ function App() {
             templateAreas={`"top"
                                     "bottom"
                                 `}
-            gridTemplateRows={"1fr 6fr"}
+            gridTemplateRows={"1fr 5fr"}
             h="100vh"
             fontWeight="bold"
             >
                 <GridItem pl="2" bg="pink.200" area={"top"} verticalAlign={'center'}>
                     <VStack spacing={1}>
-                        <Text fontSize='5xl' h='100'>
+                        <Text fontSize='2xl' h='50'>
                         Based on the Quiz Results, we would recommend
                         </Text>
                     </VStack>

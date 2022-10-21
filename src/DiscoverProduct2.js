@@ -102,7 +102,7 @@ function App() {
                 <Button colorScheme='pink'>Add to cart</Button>
                 <Box
                 mt='1'
-                fontSize={'xl'}
+                fontSize={'md'}
                 fontWeight='semibold'
                 as='h4'
                 lineHeight='tight'
@@ -136,7 +136,7 @@ Hyaluronic Acid: A humectant that anchors moisture within the skin, keeping it h
                                 
                 <Box
                 mt='1'
-                fontSize={'xl'}
+                fontSize={'md'}
                 fontWeight='semibold'
                 as='h4'
                 lineHeight='tight'
@@ -162,7 +162,7 @@ Can also be mixed with foundation for a dewy finish, or applied as the last step
 
                 <Box
                 mt='1'
-                fontSize={'md'}
+                fontSize={'sm'}
                 fontWeight='semibold'
                 as='h4'
                 lineHeight='tight'

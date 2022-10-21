@@ -27,7 +27,7 @@ function App() {
         <GridItem pl="2" bg="pink.100" area={"top"}>
             <VStack spacing={8}>
               <Spacer/>
-                <Text textColor={'pink.900'}>
+                <Text textColor={'pink.900'} fontSize='md'>
                 Our brief was to create a stand-out roadshow solution to offer customers with a wide range of products and allow them to choose the correct products that match their needs and budget.
                 <p/>
                 We also wish to educate customers on skincare health and wellbeing and raise awareness of real beauty

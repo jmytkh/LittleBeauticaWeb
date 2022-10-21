@@ -35,7 +35,8 @@ function App() {
     >
         <GridItem pl="2" bg="pink.200" area={"left"}>
             <VStack spacing={8} align='center' verticalAlign={'center'}>
-            <Text fontSize='5xl'>Question {property.questionNumber}</Text>
+            <Spacer/>
+            <Text fontSize='xl'>Question {property.questionNumber}</Text>
             <Spacer/>
             <Spacer/>
             <Text fontSize='4xl'>{property.question}</Text>

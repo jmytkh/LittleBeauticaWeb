@@ -102,7 +102,7 @@ function App() {
             <Button colorScheme='pink'>Add to cart</Button>
             <Box
               mt='1'
-              fontSize={'xl'}
+              fontSize={'md'}
               fontWeight='semibold'
               as='h4'
               textAlign='left'
@@ -130,7 +130,7 @@ function App() {
 
             <Box
               mt='1'
-              fontSize={'xl'}
+              fontSize={'md'}
               fontWeight='semibold'
               as='h4'
               lineHeight='tight'
@@ -143,7 +143,7 @@ function App() {
 
             <Box
               mt='1'
-              fontSize={'md'}
+              fontSize={'sm'}
               fontWeight='semibold'
               as='h4'
               lineHeight='tight'
